@@ -17,7 +17,8 @@ let numero = '';
 function iniciarEtapa() {
     let etapa = etapas[etapaAtual];
 
-    numeroHtml = '';
+    let numeroHtml = '';
+    numero = '';
 
     for (let i = 0; i < etapa.numeros; i++) {
         if (i === 0) {
@@ -49,7 +50,6 @@ function atualizaInterface() {
         seuVoto.style.display = 'block';
         aviso.style.display = 'block';
         descricao.innerHTML = `Nome: ${candidato.nome}<br/>Partido: ${candidato.partido}`;
-
         let fotosHtml = ''
         for (let i in candidato.fotos) {
             fotosHtml = fotosHtml + `<div class="d-1-image"><img src="images/${candidato.fotos[i].url}" alt = "">${candidato.fotos[i].legenda}</div>`;
@@ -61,8 +61,6 @@ function atualizaInterface() {
         aviso.style.display = 'block';
         descricao.innerHTML = '<div class="aviso--grande pisca">VOTO NULO</div>';
     }
-
-    console.log(candidato);
 }
 
 function clicou(n) {
@@ -86,7 +84,7 @@ function branco() {
 }
 
 function corrige() {
-    alert("Clicou em corrige")
+    iniciarEtapa();
 }
 
 function confirma() {
