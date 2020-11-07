@@ -4,29 +4,29 @@ let etapas = [
         numeros: 5,
         candidatos: [
             {
-                numero: '12345',
+                numero: '11111',
                 nome: 'Charlotte Katakuri',
                 partido: 'Partido Piratas Big Mom',
                 fotos: [
-                    { url: '12345.png', legenda: 'Vereador' }
+                    { url: '11111.png', legenda: 'Vereador' }
                 ]
             },
 
             {
-                numero: '90222',
+                numero: '22222',
                 nome: 'Coby',
                 partido: 'Partido Marinha',
                 fotos: [
-                    { url: '90222.png', legenda: 'Vereador' }
+                    { url: '22222.png', legenda: 'Vereador' }
                 ]
             },
 
             {
-                numero: '88888',
+                numero: '33333',
                 nome: 'Sabo',
                 partido: 'Partido Revolucionario',
                 fotos: [
-                    { url: '88888.png', legenda: 'Vereador' }
+                    { url: '33333.png', legenda: 'Vereador' }
                 ]
             }
         ]
