@@ -34,12 +34,12 @@ let etapas = [
 
     {
         titulo: 'PREFEITO',
-        numero: 2,
+        numeros: 2,
         candidatos: [
             {
                 numero: '15',
                 nome: 'Monkey D. Luffy',
-                partido: 'PCP',
+                partido: 'Partido do Chapeu de Palha',
                 vice: 'Roronoa Zoro',
                 fotos: [
                     { url: '15.png', legenda: 'Prefeito' },
@@ -50,7 +50,7 @@ let etapas = [
             {
                 numero: '90',
                 nome: 'Almirante Akainu',
-                partido: 'PGV',
+                partido: 'Partido Marinha',
                 vice: 'Almirante Fujitora',
                 fotos: [
                     { url: '90.png', legenda: 'Prefeito' },
